@@ -1,0 +1,11 @@
+tv paprika:
+ http://82.76.249.75/digiedge2/tvpaprikamq/media_2148.ts
+ http://82.76.249.75/digiedge2/tvpaprikahq/playlist.m3u8
+tf1:
+	http://streaming-hub.com/tv/i/tf1_1@97468/master.m3u8 
+
+strictly belly dancing:
+	http://stream01.yamgo.com/iPhone/HLS_TS/broadcast/strictly_belly_dancing-tablet.3gp/strictly_belly_dancing-tablet.3gp-mr647k.m3u8
+
+arte:
+http://204.107.27.233/live/1729.high.stream/playlist.m3u8	
