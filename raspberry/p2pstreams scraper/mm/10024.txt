@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="ro" lang="ro">
+<!-- port1 --><head>
+  <title>PORT - programe TV - PORT.ro</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+  <meta name="keywords" content="Peninsula, program tv, cinema, teatru, concert, muzica, restaurant, club, expozitii, festival, concurs, cronici" />
+  <meta name="description" content="PORT - programe TV" />
+<meta property="og:title" content="PORT - programe TV"/>
+<meta property="og:description" content="PORT - programe TV"/>
+<meta property="og:url" content=""/>
+<meta property="og:type" content="website"/>
+<meta property="fb:app_id" content="172282366136831"/>
+<meta property="og:site_name" content="PORT.ro"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="Bookmark icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/favicon_iphone.png"/>
+<link type="text/css" rel="stylesheet" href="http://media.port-network.com/floatbox_572/floatbox.css" />
+<script type="text/javascript" src="http://media.port-network.com/floatbox_572/floatbox.js"></script>
+<script>fbPageOptions = {header: '<div class="fb_port_header"><span class="fb_port_close" onclick="fb.end();">închide</span></div>'};</script>
+<style type="text/css">iframe[name="google_conversion_frame"] {position:absolute;top: -100px;left: -100px;}</style>
+<script type="text/javascript" src="//ro.adocean.pl/files/js/ado.js"></script>
+<script type="text/javascript">
+/* (c)AdOcean 2003-2015 */
+    if(typeof ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};} 
+    ado.config({mode: "old", xml: false, characterEncoding: true});
+    ado.preview({enabled: true, emiter: "ro.adocean.pl", id: "9o_nnmMOl7DVtYDXaZt4a6fiYvE4HBI1Yn6GfTZu5v3.E7"});
+</script>
+<!-- start master -->
+<script type="text/javascript">
+/* (c)AdOcean 2003-2015, MASTER: port_ro.port_computer.TV */
+ado.master({id: 'nccw.3NRJv6AzaH2eIr5xxr_oVWjNUcWE9y6PMbzCxb.H7', server: 'ro.adocean.pl' });
+</script>
+<!--  end master  -->
+<script type="text/javascript">var page_id = 775;</script><link rel="stylesheet" type="text/css" href="/pls/w/html_elements.print_stylesheets?i_page_id=775" /><script src="/pls/w/html_elements.print_scripts?i_page_id=775&amp;i_get_js_to_ajax_request=0" type="text/javascript"></script><script src="http://www.port.ro/pls/w/message.message?i_message_id=&i_topic_id=1&i_page_id=775&i_modified=1342712520"></script><!-- SATI CODES PLACE -->
+
+</head>
+<body id="page_775" lang="ro">
+<div id="x_bodycontent" class="x_pageholder"><div id="header_stripe_ajax_container"></div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $.ajax({
+                                url: '/pls/w/authentication.ajax_header_stripe?i_language_id=44&i_return_url='+encodeURIComponent(window.location.href),
+                                success: function(data){
+                                    $('#header_stripe_ajax_container').html(data);
+                                    fb.activate();
+                                }
+                            });
+                        });
+                    </script><div id="screenshot_775"><div id="page_775" class="x_mainframe-100">           <!--Banner Place Start-->
+           <div class="x_headBannerContainer" id="above_menu_bar"><div align="center"><div><!-- start slave -->
+<div id="adoceanrooiqjlwjnru"></div>
+<script type="text/javascript">
+/* (c)AdOcean 2003-2015, port_ro.port_computer.TV.L1 */
+ado.slave('adoceanrooiqjlwjnru', {myMaster: 'nccw.3NRJv6AzaH2eIr5xxr_oVWjNUcWE9y6PMbzCxb.H7' });
+</script>
+<!--  end slave  --></div></div></div>
+           <!--Banner Place End-->
+<div class="x_head"><div class="x_logo"><a href="/"><img src="http://media.port-network.com/page_elements/port_ro_logo.png" alt="PORT Logo" /></a></div>
+<div class="x_menuholder_100"><div class="x_mainmenu"><div class="x_mainmenuinner"><div class="x_menuitem sel"><a href="/pls/tv/tv.prog">Program TV</a></div><div class="x_menuitem"><a style="background: url(http://media.port-network.com/page_elements/header/lmbg08.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel08.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg08.png)'" href="/pls/w/offer_editor.tv_recommendation">Recomandări TV <script type="text/jscript">$(window).load(function() {if ($("[class^=x_menuholder] a:contains('Recomandări TV')").find('img')[0] === undefined) {var $elem = $("[class^=x_menuholder] a:contains('Recomandări TV')");$elem.append('<img src=\'http:\/\/media.port.hu\/page_elements/header\/new_menu_sign.png\' style=\"margin: -4px 0px 0px -4px;position:absolute;border:none;\"\/>');}});</script></a></div><div class="x_menuitem"><a style="background: url(http://media.port-network.com/page_elements/header/lmbg00.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg00.png)'" href="http://www.port.ro/tv/mobile/">PORT TV<script type="text/jscript">$(window).load(function() {$("[class^=x_menuholder] a:contains('PORT TV')").attr("target","_blank");});</script></a></div><div class="x_menuitem"><a style="background: url(http://media.port-network.com/page_elements/header/lmbg00.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg00.png)'" href="http://widget.port.ro/">Widget TV<script type="text/jscript">$(window).load(function() {$("[class^=x_menuholder] a:contains('Widget TV')").attr("target","_blank");});</script></a></div><div class="x_menuitem"><a style="background: url(http://media.port-network.com/page_elements/header/lmbg00.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg00.png)'" href="http://forum.port.ro">Forum</a></div></div><!--mainmenu--></div><!--mainmenuinner--><div class="x_mainmenu2">
+                 <div class="x_mainmenu2inner"><div class="x_menuitem-back"><a style="background: url(http://media.port-network.com/page_elements/header/lmbgback.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbgback.png)'" href="/pls/ci/cinema.index2">Cinema</a></div><div class="x_menuitem-back"><a style="background: url(http://media.port-network.com/page_elements/header/lmbgback.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbgback.png)'" href="/pls/w/offer_editor.news">Ştiri</a></div><div class="x_menuitem-back"><a style="background: url(http://media.port-network.com/page_elements/header/lmbgback.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbgback.png)'" href="http://port.ro/bilete/">Bilete</a></div><div class="x_menuitem-back"><a style="background: url(http://media.port-network.com/page_elements/header/lmbgback.png)" onmouseover="this.style.background='url(http://media.port-network.com/page_elements/header/lmbg_sel00.png)'"
+                                     onmouseout ="this.style.background='url(http://media.port-network.com/page_elements/header/lmbgback.png)'" href="/pls/w/offer_editor.free_time">Timp Liber</a></div>  </div><!--mainmenu-->
+               </div><!--mainmenuinner-->      <div class="x_submenu">
+		    <div class="x_submenuitem">&nbsp;</div><script>
+        var referrer = document.referrer;
+        if (referrer.indexOf("origo.hu") != -1) {
+            document.write('<div id="x_origoDiv"><a href="http://origo.hu"><img src="http://media.port-network.com/sponsoration_elements/origo/origo_port.png"/></a></div>');
+        }</script>     </div><!--submenu-->
+</div><!--menuholder-->
+<div class="clear"></div><script type="text/javascript">_mainmenusize('.x_mainmenuinner');_mainmenusize('.x_mainmenu2inner');</script></div>           <!--Banner Place Start-->
+           <div class="x_headBannerContainer" id="below_menu_bar"><div align="center"><div><!-- start slave -->
+<div id="adoceanroljhqotdsmp"></div>
+<script type="text/javascript">
+/* (c)AdOcean 2003-2015, port_ro.port_computer.TV.L2 */
+ado.slave('adoceanroljhqotdsmp', {myMaster: 'nccw.3NRJv6AzaH2eIr5xxr_oVWjNUcWE9y6PMbzCxb.H7' });
+</script>
+<!--  end slave  --></div></div></div>
+           <!--Banner Place End-->
+<div style="text-align: left;" class="main-container-100 page_775"><!-- header end --><table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr>
+     <td>
+<!--navigation string begin--><div id="navigation" class="ltxt" style="margin-bottom:3px">
+<a class="bodlink8" href="/"> PORT.ro</a> &gt; <a class="bodlink8" href="/pls/tv/tv.prog">Program TV</a>&nbsp;(Naţional)&nbsp;&gt;&nbsp;PORT - programe TV 
+</div>
+
+<script type="text/javascript">navigationcontent();</script>
+<!--navigation string end-->     </td>
+     <td align="right">
+     </td>
+ </tr>
+</table>
+<div class="separator"></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<span class="btxt">
+
+</span>
+</td>
+<td valign="top" width="1%">
+</td>
+</tr>
+</table><br />
+<div class="separator"></div>
+
+
+<!-- footer begin -->
+</div>
+           <!--Banner Place Start-->
+           <div class="x_footerbanner" id="footer_visible"></div>
+           <!--Banner Place End-->
+
+<div class="x_footer">
+<div class="x_footertop"><div class="x_footertopinner">
+<div class="x_footercolumn"><div class="footercolumninner">
+<h4><a target="_blank" href="http://port.ro/pls/ci/cinema.index2">Filme</a></h4><p>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=43">Filme 2015</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=42">Filme 2014</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=41">Filme 2013</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=30">Filme 2012</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=31">Filme 2011</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=32">Filme 2010</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/ci/cinema.index2">Premiere cinematografice</a></h4><p>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/ci/cinema.index2">Avanpremiere cinematografice</a></h4><p>
+<a target="_blank" href="http://port.ro/o_tipa..._dezastru_trainwreck/pls/fi/films.film_page?i_film_id=157563">O tipă... dezastru</a>
+<a target="_blank" href="http://port.ro/pixels:_o_aventura_digitala_pixels/pls/fi/films.film_page?i_film_id=154493">Pixels: O aventură digitală</a>
+</p></div></div>
+<div class="x_footercolumn"><div class="x_footercolumninner">
+<h4><a target="_blank" href="http://port.ro/award">Premii şi nominalizări</a></h4><p>
+<a target="_blank" href="http://port.ro/award/#awardId/1">Oscar</a>
+<a target="_blank" href="http://port.ro/award/#awardId/2">Globurile de Aur</a>
+<a target="_blank" href="http://port.ro/award/#awardId/4">Cannes</a>
+<a target="_blank" href="http://port.ro/award/#awardId/13">Premiul BAFTA</a>
+<a target="_blank" href="http://port.ro/award/#awardId/14">Festivalul de film de la Veneţia</a>
+<a target="_blank" href="http://port.ro/award/#awardId/16">Festivalul internaţional de film din Berlin</a>
+<a target="_blank" href="http://port.ro/award/#awardId/26">Academia Europeană de Film</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/ci/cinema.index2">PORT.ro recomandă cinematografele</a></h4><p>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=107545&i_area_id=2&i_city_id=-1&i_county_id=-1">Cinema City Cotroceni</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=107546&i_area_id=2&i_city_id=-1&i_county_id=-1">IMAX</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100021&i_area_id=2&i_city_id=-1&i_county_id=-1">Hollywood Multiplex</a>
+</p></div></div>
+<div class="x_footercolumn"><div class="x_footercolumninner">
+<p>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=105632&i_area_id=2&i_city_id=-1&i_county_id=-1">The Light Cinema</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=108561&i_area_id=2&i_city_id=-1&i_county_id=-1">Grand Cinema Digiplex</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100015&i_area_id=2&i_city_id=-1&i_county_id=-1">Studio</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100013&i_area_id=2&i_city_id=-1&i_county_id=-1">Patria</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100044&i_area_id=2&i_city_id=-1&i_county_id=-1">Florin Piersic Cluj</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=104768&i_area_id=2&i_city_id=-1&i_county_id=-1">Cityplex Constanţa</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100213&i_area_id=2&i_city_id=-1&i_county_id=-1">Victoria IAŞI</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/th/theatre.index2">Teatru</a></h4><p>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=34">Teatre din Bucureşti</a>
+<a target="_blank" href="http://www.port.ro/pls/w/web_list.list_page?i_list_id=35">Teatre din ţară</a>
+<a target="_blank" href="http://port.ro/pls/w/theatre.date_body?i_city_id=-1&i_county_id=-1&i_country_id=56&i_topic_id=4">Programul de astăzi al teatrelor</a>
+</p></div></div>
+<div class="x_footercolumn"><div class="x_footercolumninner">
+<h4><a target="_blank" href="http://port.ro/pls/th/theatre.directing_list?i_list_id=4">Fragmente din spectacole</a></h4><p>
+<a target="_blank" href="http://port.ro/rinocerii/pls/th/theatre.directing?i_direct_id=1018613">Rinocerii</a>
+<a target="_blank" href="http://port.ro/tosca/pls/th/theatre.directing?i_direct_id=1018499">Tosca</a>
+<a target="_blank" href="http://port.ro/insemnarile_unui_nebun/pls/th/theatre.directing?i_direct_id=1016524">Însemnările unui nebun</a>
+</p>
+<h4>Persoane născute astăzi</h4><p>
+<a target="_blank" href="http://port.ro/wong_kar-wai/pls/pe/person.person?i_pers_id=1907&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Wong Wai Kar-Wai (1956)</a>
+<a target="_blank" href="http://port.ro/donald_sutherland/pls/pe/person.person?i_pers_id=7367&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Donald  Sutherland (1935)</a>
+<a target="_blank" href="http://port.ro/david_hasselhoff/pls/pe/person.person?i_pers_id=8853&i_city_id=-1&i_county_id=-1&i_cntry_id=56">David  Hasselhoff (1952)</a>
+<a target="_blank" href="http://port.ro/robin_shou/pls/pe/person.person?i_pers_id=11246&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Robin  Shou (1960)</a>
+<a target="_blank" href="http://port.ro/thomas_carter/pls/pe/person.person?i_pers_id=12471&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Thomas  Carter (1953)</a>
+<a target="_blank" href="http://port.ro/james_cagney/pls/pe/person.person?i_pers_id=14023&i_city_id=-1&i_county_id=-1&i_cntry_id=56">James  Cagney (1899)</a>
+<a target="_blank" href="http://port.ro/bitty_schram/pls/pe/person.person?i_pers_id=14118&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Bitty  Schram (1968)</a>
+</p></div></div>
+<div class="x_footercolumn"><div class="x_footercolumninner">
+<p>
+<a target="_blank" href="http://port.ro/fust_milan/pls/pe/person.person?i_pers_id=23627&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Milán  Füst (1888)</a>
+<a target="_blank" href="http://port.ro/bozso_peter/pls/pe/person.person?i_pers_id=25707&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Péter  Bozsó (1973)</a>
+<a target="_blank" href="http://port.ro/mike_elliott/pls/pe/person.person?i_pers_id=118628&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Mike  Elliott (1946)</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/co/concert.index2">Muzică</a></h4><p>
+<a target="_blank" href="http://port.ro/pls/co/concert.list_days?i_city_id=-1&i_dist_id=-1&i_county_id=-1&i_cntry_id=56&i_cat_id=&i_set_id=3">Concertele zilei</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/co/concert.index2">PORT.ro recomandă locuri de concert</a></h4><p>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=108917&i_area_id=4&i_city_id=-1&i_county_id=-1">Ageless Club</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=107574&i_area_id=4&i_city_id=-1&i_county_id=-1">Indie Club</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=100664&i_area_id=4&i_city_id=-1&i_county_id=-1">Green Hours</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=104776&i_area_id=4&i_city_id=-1&i_county_id=-1">Hard Rock Cafe</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=105701&i_area_id=4&i_city_id=-1&i_county_id=-1">The Silver Church Club</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=105070&i_area_id=4&i_city_id=-1&i_county_id=-1">Club Fabrica</a>
+</p></div></div>
+<div class="x_footercolumn"><div class="x_footercolumninner">
+<p>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=108583&i_area_id=4&i_city_id=-1&i_county_id=-1">True Club</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=103254&i_area_id=4&i_city_id=-1&i_county_id=-1">Sala Palatului</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=104242&i_area_id=4&i_city_id=-1&i_county_id=-1">Ateneul Român</a>
+<a target="_blank" href="http://port.ro/pls/w/organization.organization_page?i_organization_id=107168&i_area_id=4&i_city_id=-1&i_county_id=-1">Control Club</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/co/concert.index2">Genuri muzicale</a></h4><p>
+<a target="_blank" href="http://port.ro/pls/w/concert.list_days?i_city_id=-1&i_county_id=-1&i_country_id=56&i_cat_id=1_0">Clasic</a>
+<a target="_blank" href="http://port.ro/pls/w/concert.list_days?i_city_id=-1&i_county_id=-1&i_country_id=56&i_cat_id=2_0">Muzică Uşoară</a>
+<a target="_blank" href="http://port.ro/pls/w/concert.list_days?i_city_id=-1&i_county_id=-1&i_country_id=56&i_cat_id=3_0">Jazz</a>
+<a target="_blank" href="http://port.ro/pls/w/concert.list_days?i_city_id=-1&i_county_id=-1&i_country_id=56&i_cat_id=4_0">Populară, World Music</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/fe/festival.index2">Festivaluri</a></h4><p>
+<a target="_blank" href="http://port.ro/pls/fe/festival.festival_list?i_condition=4&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Alte festivaluri</a>
+<a target="_blank" href="http://port.ro/pls/fe/festival.festival_list?i_condition=3&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Festivaluri de film</a>
+<a target="_blank" href="http://port.ro/pls/fe/festival.festival_list?i_condition=2&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Festivaluri de muzică</a>
+<a target="_blank" href="http://port.ro/pls/fe/festival.festival_list?i_condition=1&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Festivaluri de teatru</a>
+<a target="_blank" href="http://port.ro/pls/fe/festival.festival_list?i_condition=-1&i_city_id=-1&i_county_id=-1&i_cntry_id=56">Festivaluri pentru toate artele</a>
+</p>
+<h4><a target="_blank" href="http://port.ro/pls/w/contest.index2">Concurs</a></h4><p>
+</p>
+</div><!--footercolumninner--></div><!--footercolumn-->
+</div></div>
+<div class="x_footerbottom">
+<div class="x_footerlinks">
+<div class="footer_references">
+                <a target="_blank" href="http://port-network.com">PORT-network.com</a> |
+                <a target="_blank" href="http://port.hu">PORT.hu</a> |
+                <a target="_blank" href="http://port.ro">PORT.ro</a> |
+                <a target="_blank" href="http://port.cz">PORT.cz</a> |
+                <a target="_blank" href="http://port.sk">PORT.sk</a> |
+                <a target="_blank" href="http://port.hr">PORT.hr</a> |
+                <a target="_blank" href="http://port.rs">PORT.rs</a>
+     </div>
+
+<div class="static-company-page-links"><a target="_blank" href="/impress/">Echipa PORT.ro</a><span class="footer-link-separator">|</span><a target="_blank" href="http://media.port-network.com/port_ro/offers/index.htm">Oferta media</a><span class="footer-link-separator">|</span><a href="mailto:redactia@port.ro">Contact</a><span class="footer-link-separator">|</span><a target="_blank" href="/corporate/">PORT Computer România</a><span class="footer-link-separator">|</span><a target="_blank" href="http://port-network.com/index.php?option=com_content&view=article&id=59&Itemid=65" target="_blank">Job</a><span class="footer-link-separator">|</span><a target="_blank" href="http://port.ro/article/29867" target="_blank">Despre cookies şi confidenţialitate</a></div>
+
+</div>
+<div class="x_footeradaptive">
+<!-- BEGIN trafic.ro code v2.0 -->
+<script>t_rid="portro";</script>
+<script src="http://storage.trafic.ro/js/trafic.js"></script>
+<noscript><a href="http://www.trafic.ro/top/?rid=portro">
+<img src="http://log.trafic.ro/cgi-bin/pl.dll?rid=portro" border=0 alt="trafic ranking"></a></noscript>
+<!-- END trafic.ro code v2.0 -->
+<!-- Begin Survey Webreports --><!--<script type="text/javascript" src="http://storage.trafic.ro/js/srvtun.js?site=portro&leftb=400&topb=300"></script>--><!-- End Survey Webreports -->
+
+<!-- (c) 2008 Gemius SA / gemiusHeatMap(GHM+XY) / http://www.port.ro -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var ghmxy_align = 'left';
+var ghmxy_type = 'percent';
+var ghmxy_identifier = 'AfVFLWNpYd149x64Wh_fKMd.jwgwsycsrdx.gUO1QVH.S7';
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://pro.hit.gemius.pl/hmapxy.js"></script>
+</div>
+<div class="clear"></div></div>
+           <!--Banner Place Start-->
+           <div class="x_footerbanner" id="footer_popup"></div>
+           <!--Banner Place End-->
+
+</div></div></div></div>
+           <!--Banner Place Start-->
+           <div class="x_footerbanner" id="below_footer-sticky_figure"></div>
+           <!--Banner Place End-->
+
+<div id="script"><!-- Script Place -->
+<SCRIPT language="JavaScript">
+<!--
+WEBAUDIT=function() {
+    
+  this.WACID=null;
+  this.WACIDName="WACID";
+  
+  
+  this.getCookie=function(name)  {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++)
+    {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  }
+  
+  this.setCookie=function(name,value,topDomain) {
+    var date = new Date(2020,12,31,23,59,59);
+    var expires = "; expires="+date.toGMTString();
+    document.cookie = name+"="+value+expires+"; path=/; domain=" + topDomain;  
+  }
+  
+  this.generateID=function(splitter) {
+    var sp=(splitter) ? splitter : 'A';
+    var now=new Date();
+    return Date.parse(now.toGMTString()) + sp + Math.floor(Math.random()*1000000000);
+  }
+  
+  this.getTopDomain=function(fullDomain) {
+    var darabok=fullDomain.split('.');
+    return darabok[(darabok.length-2)] + '.' + darabok[(darabok.length-1)];
+  }
+  
+  this.getDomain=function(url) {
+    var urlDarabok=url.split('/');
+    return urlDarabok[2];
+  }
+  
+  this.WACID=this.getCookie(this.WACIDName);
+}
+
+var wa=new WEBAUDIT();
+var felbontas = "";
+var same =  Math.floor(Math.random()*1000000);
+
+if(wa.WACID==null)
+{
+  wa.WACID=wa.generateID('A');
+  wa.setCookie(wa.WACIDName,wa.WACID,wa.getTopDomain(wa.getDomain(document.URL)));
+}
+
+same = same + "@welid=" + wa.WACID;
+if(screen) felbontas='@felbontas='+screen.width+'x'+screen.height;
+same = same + felbontas;
+//-->
+</SCRIPT>
+
+<SCRIPT language="JavaScript">
+<!--
+document.write('<!-- Medián WebAudit PortRo 1/2 --><img style="position:absolute;top:-100px;left:-100px" src="http://audit.median.hu/cgi-bin/track.cgi?uc=11695817226172&dc=1&ui='+same+'" width="1" height="1">');
+//-->
+</SCRIPT>
+<NOSCRIPT>
+<!-- Medián WebAudit PortRo 1/2 -->
+<img style="position:absolute;top:-100px;left:-100px" src="http://audit.median.hu/cgi-bin/track.cgi?uc=11695817226172&dc=1" width="1" height="1">
+</NOSCRIPT>
+
+<!-- Start BRAT Scores Tagging Version 1.6.0 -->
+<script>
+    (function() {
+        var scr = document.createElement('script');
+        scr.type = 'text/javascript'; scr.async = true;
+        scr.src = 'http://www.port.ro/JS/spring.js-brat-1.6.0.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(scr, s);
+	})();
+</script>
+<!-- End BRAT Scores Tagging Version 1.6.0 -->
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var pp_gemius_identifier = 'ncqV9HOmLVmuP_oNtDONt_UTP8fRvoc2ISZ9HW0DLpT.47';
+// lines below shouldn't be edited
+function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+gt.setAttribute('defer','defer'); gt.src=l+'://garo.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+//--><!]]>
+</script>
+
+<!-- Codul Google pentru eticheta de remarketing -->
+<!--------------------------------------------------
+Etichetele de remarketing nu pot fi asociate informa?iilor de identificare personala ?i nu pot fi plasate în pagini referitoare la categorii delicate. Consulta?i mai multe informa?ii ?i instruc?iuni referitoare la activarea etichetei accesând aceasta adresa URL: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 979417895;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/979417895/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript></div>
+</body></html>

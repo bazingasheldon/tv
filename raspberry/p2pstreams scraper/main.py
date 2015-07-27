@@ -2,6 +2,8 @@
 __author__ = 'dilo00o'
 
 import sys, os
+#import scheduleModule as schedule
+import scheduleNoWrite as schedule
 import urllib
 import json
 
@@ -24,15 +26,34 @@ import acestream as ace
 import sopcast as sop
 
 base_url = 'http://super-pomoyka.us.to/trash/ttv-list/ttv.m3u'
+# defaultChannels=[('Acasa', '10004'), ('Acasa Gold', '10253'), ('Axn', '10033'), ('Axn Black', '10072'), ('Axn Spin', '10298'), ('Axn White', '10073'), ('Digi Film', '10227'), ('Diva Universal', '10027'), ('Filmcafe', '10051'), ('Hbo', '10003'), ('Hbo Comedy', '10121'), ('Paramount', '10349'), ('Pro Cinema', '10036'), ('Tcm', '10054'), ('Tv1000', '10060'), ('Animal Planet Hd', '10021'), ('Discovery Channel', '10020'), ('Discovery Id', '10189'), ('Discovery Science', '10044'), ('Discovery World', '10147'), ('History Channel', '10168'), ('Nat Geo Wild', '10136'), ('National Geographic', '10024'), ('Pvtv', '10292'), ('Viasat Explorer', '10039'), ('Viasat History', '10040'), ('Viasat Nature', '10207'), ('Digisport 1', '10198'), ('Digisport 2', '10199'), ('Eurosport Hd', '10028'), ('Kiss Tv', '10008'), ('Antena 1', '10017'), ('Kanal D', '10097'), ('National Tv', '10031'), ('Prima Tv', '10005'), ('Protv', '10007'), ('Tvh 2.0', '10029'), ('Tvr 1', '10001'), ('Tvr 2', '10002'), ('Antena Stars', '10119'), ('Euforia', '10063'), ('Tlc', '10224'), ('Travel Mix', '10231'), ('Antena3', '10055'), ('B1', '10022'), ('Digi 24', '10282'), ('Euronews', '10113'), ('Realitatea Tv', '10019'), ('Romania Tv', '10245')]
+defaultChannels=[('Acasa', '10004'), ('Acasa Gold', '10253'), ('Axn', '10033')]
 
 
-def module_tree(name, url, iconimage, mode, parser, parserfunction):
-    list_all_items()
-
+roStreams='http://streams.magazinmixt.ro/streams.json'
 
 container = list()
 content = list()
 containerOtherType = list()
+channelSchedule=[]
+scheduleDb={}
+
+def module_tree(name, url, iconimage, mode, parser, parserfunction):
+    current_dir=os.path.dirname(os.path.realpath(__file__))
+    scheduleDb={}
+    defaultChannels=[('Acasa', '10004'), ('Acasa Gold', '10253'), ('Axn', '10033')]
+    # defaultChannels=[('Acasa', '10004'), ('Acasa Gold', '10253'), ('Axn', '10033'), ('Axn Black', '10072'), ('Axn Spin', '10298'), ('Axn White', '10073'), ('Digi Film', '10227'), ('Diva Universal', '10027'), ('Filmcafe', '10051'), ('Hbo', '10003'), ('Hbo Comedy', '10121'), ('Paramount', '10349'), ('Pro Cinema', '10036'), ('Tcm', '10054'), ('Tv1000', '10060'), ('Animal Planet Hd', '10021'), ('Discovery Channel', '10020'), ('Discovery Id', '10189'), ('Discovery Science', '10044'), ('Discovery World', '10147'), ('History Channel', '10168'), ('Nat Geo Wild', '10136'), ('National Geographic', '10024'), ('Pvtv', '10292'), ('Viasat Explorer', '10039'), ('Viasat History', '10040'), ('Viasat Nature', '10207'), ('Digisport 1', '10198'), ('Digisport 2', '10199'), ('Eurosport Hd', '10028'), ('Kiss Tv', '10008'), ('Antena 1', '10017'), ('Kanal D', '10097'), ('National Tv', '10031'), ('Prima Tv', '10005'), ('Protv', '10007'), ('Tvh 2.0', '10029'), ('Tvr 1', '10001'), ('Tvr 2', '10002'), ('Antena Stars', '10119'), ('Euforia', '10063'), ('Tlc', '10224'), ('Travel Mix', '10231'), ('Antena3', '10055'), ('B1', '10022'), ('Digi 24', '10282'), ('Euronews', '10113'), ('Realitatea Tv', '10019'), ('Romania Tv', '10245')]
+    print "current dir: "+current_dir
+    try:
+        print '+++++++++++++++++++++++++-----------------------------------------++++++++++++++++++++++++++++'
+        scheduleDb=schedule.loadSchedule(defaultChannels)
+        print '+++++++++++++++++++++++++Done load from file++++++++++++++++++++++++++++'
+    except Exception,e:
+        print '/////////////////////////////////////////////////////'
+        print e
+        print '/////////////////////////////////////////////////////'
+        scheduleDb=schedule.getFullSchedule(defaultChannels)
+    list_all_items()
 
 
 def list_all_items():
@@ -42,40 +63,32 @@ def list_all_items():
     except:
         response = ""
     if source:
+        
         a = json.loads(source)  # dict with data
         for i in a['groups']:
             if i['name'] not in excluded:
                 for j in i['channels']:
-                    if j['status'] == 2:
-                        if j['protocol'] == 'sop' and j['country'] not in ['cz', 'ru', 'pl', 'rs', 'md', 'hu', 'tr']:
+                    if j['status'] == 2 and j['country'] not in ['cz', 'ru', 'pl', 'pr','rs', 'md', 'hu', 'tr'] and '\xd0' not in j['name'].encode('utf-8'):
+                        if j['protocol'] == 'sop' :
                             try:
-                                container.append(['[COLOR red]' + j['name'] + ' [/COLOR]', j['address'], 2, j['thumbnail'], 1, False])
-                            except KeyError:
-                                container.append(['[COLOR red]' + j['name'] + ' [/COLOR]', j['address'], 2,
+                                container.append([str( j['name']) , j['address'], 2, j['thumbnail'], 1, False])
+                            except :
+                                container.append([ str( j['name']) , j['address'], 2,
                                                   "http://screenshots.en.sftcdn.net/blog/en/2008/10/sopcast-logo.png",
                                                   1, False])
                         elif j['protocol'] == 'acestream':
                             try:
-                                container.append(
-                                    ['[COLOR orange]' + j['name'] + ' [/COLOR]', j['address'], 1, j['thumbnail'], 1,
-                                     False])
-                            except KeyError:
-                                container.append(['[COLOR orange]' + j['name'] + ' [/COLOR]', j['address'], 1,
+                                container.append([str( j['name']), j['address'], 1, j['thumbnail'], 1, False])
+                            except :
+                                container.append([str( j['name']), j['address'], 1,
                                                   "http://screenshots.en.sftcdn.net/blog/en/2008/10/sopcast-logo.png",
-                                                  1, False])
+                                                  2, False])
                         else:
 
                             try:
-                                if j['protocol'] == 'http':
-                                    containerOtherType.append(['[COLOR blueviolet]'+j['name']+'[/COLOR]', j['address'], j['thumbnail']])    
-                                else:
-                                    containerOtherType.append(['[COLOR blueviolet]'+j['name']+'[/COLOR]', j['address'], j['thumbnail']])
-                            except KeyError:
-                                    if j['protocol'] == 'http':
-                                        containerOtherType.append(['[COLOR blueviolet]'+j['name']+'[/COLOR]', j['address'],
-                                                           'http://anthrobotic.com/wp-content/uploads/2015/01/ANTHROBOTIC-VIDEO-ICON-e1420760465461.png'])
-                                    else:
-                                        containerOtherType.append(['[COLOR blueviolet]'+j['name']+'[/COLOR]', j['address'],
+                                containerOtherType.append([str( j['name']), j['address'], j['thumbnail']])    
+                            except :
+                                containerOtherType.append([str( j['name']), j['address'],
                                                            'http://anthrobotic.com/wp-content/uploads/2015/01/ANTHROBOTIC-VIDEO-ICON-e1420760465461.png'])
         container.sort(key=lambda x: x[0])
         containerOtherType.sort(key=lambda x: x[0])
@@ -93,13 +106,21 @@ def list_all_items():
                                     listitem=xbmcgui.ListItem("Arte", iconImage=""))
         delimiter3()
         for i in container:
+            print "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
+            print schedule.getEventAtTime(scheduleDb['Acasa'])
             try:
-                addDir(i[0], i[1], i[2], i[3], i[4], i[5])
-            except:
-                continue
-        delimiter2()
-        torrent_tv()
-        delimiter()
+                print '******************** '+scheduleDb[i[0]]
+                addDir(i[0]+"  "+schedule.getEventAtTime(scheduleDb[i[0]]), i[1], i[2], i[3], i[4], i[5])
+            except Exception,e:
+                print "#####################11111#####################"
+                print e
+                print "#####################22222#####################"
+                try: 
+                    addDir(i[0], i[1], i[2], i[3], i[4], i[5])
+                except:pass
+        # delimiter2()
+        # torrent_tv()
+        # delimiter()
         for i in containerOtherType:
             try:
                 appendDifferentStreams(i)
@@ -127,26 +148,14 @@ def delimiter3():
 
 def appendDifferentStreams(item):
     url = item[1]
-    li = xbmcgui.ListItem('>>>  ' + item[0], iconImage=item[2])
+    schedule.getEventAtTime(scheduleDb[item[0]])
+    try:
+        li = xbmcgui.ListItem('>>>  ' + item[0]+"  "+schedule.getEventAtTime(scheduleDb[item[0]]), iconImage=item[2])
+    except:        
+        li = xbmcgui.ListItem('>>>  ' + item[0], iconImage=item[2])
     xbmcplugin.addDirectoryItem(int(sys.argv[1]), url=url, listitem=li)
 
 
-def torrenttv2():
-    lst = {'Sky Sports 5 ': 'acestream://e72bb7060e8e4780e65ed45e81bf09bf352f496b',
-           'BT Sport 1 ': 'acestream://21cdf320596fdd8a42dbd1ec2c6bfa7af2cea654',
-           'BBC Two ': 'acestream://7c4d5ec7f9dcfb7c8d6bcc8bd942fae1971d20e4',
-           'beIN Sports 11HD English ': 'acestream://1e821480f7d6c641d888e8a9f56078293ece83fa',
-           'Sky Sports 3 HD ': 'acestream://b9ad84e9103cbaa6b81f3c1c791c40d1d1cb88e7',
-           'BBC World News': 'acestream://9c498628fca36184d19d9802f66a3b4a4c1e7cd6',
-           'Sky Sports 1 ': 'acestream://e6aaeb0c93c291a4cfe2c04d05c6b1e906f54955',
-           'beIN Sports 12HD English ': 'acestream://31dd6c07342831e3d304e6ea811f3e91e8344fc7',
-           'Sky Sports F1 ': 'acestream://2dff503259045e4d119e6e972a3db8521c47198a',
-           'BT Sport 2': 'acestream://3c698092322e91fb20e9d716ff11bd7f70dc079d',
-           'Sky Sports 2 ': 'acestream://97518ab8451a5c9e8da2b92245ac0ea6622a519c',
-           'BBC One ': 'acestream://304528e8bd201ae6eec3bb321ab3247f3f09366f',
-           'Sky Sports 3 ': 'acestream://7f480a00ac478b65fb75cfdde76ef38ee151b887'}
-    for i in sorted(lst.keys()):
-        addDir(i, lst[i], 1, 'http://minionslovebananas.com/images/check-in-minion.jpg', 1, False)
 
 
 def torrent_tv():
@@ -162,4 +171,4 @@ def torrent_tv():
             clean = re.compile("\((.+?)\)").findall(name)
             for cat in clean:
                 name = name.replace("(" + cat + ")", "")  # remove crappy russian characters
-            addDir('[COLOR orange]'+name+'[/COLOR]', stream_link, 1, current_dir + "thumb/acestream.jpg", 1, False)
+            addDir('[COLOR orange] '+name+' [/COLOR]', stream_link, 1, current_dir + "/thumb/acestream.jpg", 2, False)
